@@ -1,3 +1,9 @@
+# HEAD
+
+ * Replace spacer values - Patrick Marsceill [github/github@552b98c](https://github.com/github/github/commit/552b98c)
+ * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
+ * Removing duplicate headers - Jon Rohan [github/github@225cee1](https://github.com/github/github/commit/225cee1)
+
 # v0.1.0
 
  * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
