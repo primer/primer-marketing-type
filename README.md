@@ -9,15 +9,10 @@ This repository is a module of the full [primer-css][primer] repository.
 
 ## Documentation
 
-You can read more about alerts in the [docs][docs].
-
 <!-- %docs
 title: Typography
-homepage: https://github.com/primer/primer-marketing-typography
 status: New Release
 -->
-
-### Marketing Typography
 
 The typography for our marketing pages differs slightly from what is in Primer's core--it is responsive, on a slightly different scale, and in a different font (Roboto).
 
