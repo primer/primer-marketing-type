@@ -1,4 +1,4 @@
-# HEAD
+# v0.1.1
 
  * Replace spacer values - Patrick Marsceill [github/github@552b98c](https://github.com/github/github/commit/552b98c)
  * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
