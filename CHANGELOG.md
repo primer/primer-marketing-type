@@ -1,3 +1,7 @@
+# HEAD
+
+ * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
+
 # v0.1.1
 
  * Replace spacer values - Patrick Marsceill [github/github@552b98c](https://github.com/github/github/commit/552b98c)
