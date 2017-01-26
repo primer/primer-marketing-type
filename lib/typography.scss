@@ -116,3 +116,38 @@
 .pullquote {
   @include pullquote;
 }
+
+// Alt list styles
+
+// stylelint-disable string-quotes
+// disabling string quotes so we can use svg data urls to generate checkmark
+.alt-checklist-item {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 5px;
+    left: -24px;
+
+    content: url('data:image/svg+xml;utf8,<svg width="18px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15"><g stroke="none" stroke-width="1" fill-rule="evenodd"><circle opacity="0.321444746" cx="7.5" cy="7.5" r="7.5" fill="#{ $green }"></circle><polygon points="17.9661464 1.8707683 7.98871548 11.8481993 3 6.85948378 4.8707683 4.98871548 7.98871548 8.10666265 16.0953781 0" fill="#{ $green }"></polygon></g></svg>');
+  }
+}
+
+.alt-checklist-item-purple {
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg width="18px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15"><g stroke="none" stroke-width="1" fill-rule="evenodd"><circle opacity="0.321444746" cx="7.5" cy="7.5" r="7.5" fill="#{$site-next-purple}"></circle><polygon points="17.9661464 1.8707683 7.98871548 11.8481993 3 6.85948378 4.8707683 4.98871548 7.98871548 8.10666265 16.0953781 0" fill="#{$site-next-purple}"></polygon></g></svg>');
+  }
+}
+
+.alt-checklist-item-teal {
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg width="18px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15"><g stroke="none" stroke-width="1" fill-rule="evenodd"><circle opacity="0.321444746" cx="7.5" cy="7.5" r="7.5" fill="#51aaC5"></circle><polygon points="17.9661464 1.8707683 7.98871548 11.8481993 3 6.85948378 4.8707683 4.98871548 7.98871548 8.10666265 16.0953781 0" fill="#51aaC5"></polygon></g></svg>');
+  }
+}
+
+.alt-checklist-item-magenta {
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg width="18px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15"><g stroke="none" stroke-width="1" fill-rule="evenodd"><circle opacity="0.321444746" cx="7.5" cy="7.5" r="7.5" fill="#d52187"></circle><polygon points="17.9661464 1.8707683 7.98871548 11.8481993 3 6.85948378 4.8707683 4.98871548 7.98871548 8.10666265 16.0953781 0" fill="#d52187"></polygon></g></svg>');
+  }
+}
+// stylelint-enable string-quotes
