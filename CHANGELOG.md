@@ -1,5 +1,6 @@
 # HEAD
 
+ * Remove the font-size from .page-responsive, and update .alt-body-font class to remove the Roboto font stack - Mark Otto [github/github@2bc89bd](https://github.com/github/github/commit/2bc89bd)
  * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
  * Pointing main js file to build - Jon Rohan [github/github@3575651](https://github.com/github/github/commit/3575651)
  * don't change the versions yet - Jon Rohan [github/github@6bebcff](https://github.com/github/github/commit/6bebcff)
