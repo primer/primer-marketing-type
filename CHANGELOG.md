@@ -1,5 +1,9 @@
-# HEAD
+# v0.1.2
 
+ * bump version numbers that were missed previously - broccolini [github/github@ee50553](https://github.com/github/github/commit/ee50553)
+ * drop alt-text-large for f3 - Mark Otto [github/github@a0896d4](https://github.com/github/github/commit/a0896d4)
+ * make alt-h0 roboto - Sophie Shepherd [github/github@50767d8](https://github.com/github/github/commit/50767d8)
+ * Fix readme badges - Mu-An Chiou [github/github@301cb99](https://github.com/github/github/commit/301cb99)
  * Remove the font-size from .page-responsive, and update .alt-body-font class to remove the Roboto font stack - Mark Otto [github/github@2bc89bd](https://github.com/github/github/commit/2bc89bd)
  * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
  * Pointing main js file to build - Jon Rohan [github/github@3575651](https://github.com/github/github/commit/3575651)
