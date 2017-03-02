@@ -12,6 +12,7 @@
 //
 // Headings
 
+.alt-h0,
 .alt-h1,
 .alt-h2,
 .alt-h3,
@@ -21,6 +22,17 @@
 .alt-lead {
   -webkit-font-smoothing: antialiased;
   font-family: $alt-body-font;
+}
+
+@mixin alt-h0 {
+  font-size: 48px;
+  font-weight: $font-weight-light;
+  @include breakpoint(md) { font-size: 54px; }
+  @include breakpoint(lg) { font-size: 72px; }
+}
+
+.alt-h0 {
+  @include alt-h0;
 }
 
 @mixin alt-h1 {
