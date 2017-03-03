@@ -14,7 +14,7 @@ title: Typography
 status: New Release
 -->
 
-The typography for our marketing pages differs slightly from what is in Primer's core--it is responsive, on a slightly different scale, and in a different font (Roboto).
+The typography for our marketing pages differs slightly from what is in Primer's core--it is responsive, on a slightly different scale, and headlines are in a different font (Roboto).
 
 
 ## Heading Utilities
