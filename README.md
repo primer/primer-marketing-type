@@ -37,19 +37,16 @@ Use `.alt-h1` – `.alt-h6` to change an element's font, size, and weight on mar
 These utilities are meant to be used in addition to Primer's core utilities.
 
 ```html
-<div class="alt-body-font">
 
-  <p class="alt-lead text-gray">I'm a lead paragraph. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
+<p class="alt-lead text-gray">I'm a lead paragraph. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
 
-  <p class="text-gray">I'm a regular paragraph, except I'm gray. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
+<p class="text-gray">I'm a regular paragraph, except I'm gray. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
 
-  <p class="text-gray alt-text-small">And I'm a tiny lil' baby paragraph. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
+<p class="text-gray alt-text-small">And I'm a tiny lil' baby paragraph. Bacon ipsum dolor amet tri-tip chicken kielbasa, cow swine beef corned beef ground round prosciutto hamburger porchetta sausage alcatra tail.</p>
 
-  <p class="alt-mono-font text-gray">Occasionally we want to use a mono font, there is a utility class for that.</p>
+<p class="alt-mono-font text-gray">Occasionally we want to use a mono font, there is a utility class for that.</p>
 
-  <p class="pullquote">I'm a pullquote. Someone said these words in real life, and now they're on the internet</p>
-
-</div>
+<p class="pullquote">I'm a pullquote. Someone said these words in real life, and now they're on the internet</p>
 
 ```
 
