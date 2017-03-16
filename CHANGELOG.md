@@ -1,5 +1,6 @@
 # HEAD
 
+ * delete unused classes & update whitelist with hide utils - Sophie Shepherd [github/github@56276b7](https://github.com/github/github/commit/56276b7)
  * versions - Sophie Shepherd [github/github@703a904](https://github.com/github/github/commit/703a904)
 
 # v0.1.2
